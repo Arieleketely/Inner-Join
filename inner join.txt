@@ -2,3 +2,9 @@ SELECT <select_list>
 FROM Tabela A
 INNER JOIN Tabela B
 ON A.Key = B.Key
+
+Professor referencia aluno ou seja professor depende 
+dos dados de aluno.
+
+ALTER TABLE professor
+ ADD CONSTRAINT id_aluno FOREIGN KEY (id) REFERENCES aluno(id)
