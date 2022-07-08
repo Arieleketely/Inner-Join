@@ -8,3 +8,7 @@ dos dados de aluno.
 
 ALTER TABLE professor
  ADD CONSTRAINT id_aluno FOREIGN KEY (id) REFERENCES aluno(id)
+
+
+
+  SELECT *FROM aluno as a INNER JOIN professor as p ON a.id = p.id;
