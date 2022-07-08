@@ -1,0 +1,4 @@
+SELECT <select_list>
+FROM Tabela A
+INNER JOIN Tabela B
+ON A.Key = B.Key
